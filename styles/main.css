@@ -3,25 +3,34 @@ body {
   margin: 0;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
-  color: #404040;
+  background-color: thistle;
+  display: flex;
+  flex-direction: row;
+}
+
+nav {
+  width: 25vw;
+  height: 100vh;
 }
 
 header {
   float: left;
   width: 225px;
   height: auto;
-  border-right: solid #404040 1px;
-  border-bottom: solid #404040 1px;
   border-radius: 0 0 6px 0;
   padding: 10px;
   margin-right: 10px;
 }
 
 h1 {
-  font-family: "Great Vibes", cursive;
   font-size: 52px;
-  color: #3493d5;
+  color: cornflowerblue;
   margin: 10px 0;
+  font-family: "Great Vibes", cursive;
+}
+
+h2 { 
+  font-family: "Great Vibes", cursive;
 }
 
 ul {
@@ -32,36 +41,56 @@ li {
   list-style: none;
 }
 
-nav ul {
-  margin-left: 15px;
+main {
+  /* float: left; */
+  margin-left: 100px;
+  width: 200px;
 }
 
-nav ul li {
-  padding: 5px;
+#cake-list {
+  overflow: scroll;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  max-width: fit-content;
+  background: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 10px,
+    lavender 10px,
+    lavender 20px
+  );
+}
+
+#cake-list li {
+  font-size: 2vh;
+  margin-top: 4vh;
+  padding-top: 4vh;
+  background-color: cornflowerblue;
+  border-top-left-radius: 30%;
+  border-top-right-radius: 30%;
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
 }
 
-nav ul li:hover {
-  background-color: #f1a458;
-  color: #fff;
+#cake-list li:hover {
+  color: white;
 }
 
-main {
-  float: left;
-  margin-left: 50px;
-  width: 600px;
-}
-
-.beer-details h2 {
+.cake-details h2 {
   font-size: 32px;
   text-align: center;
+  align-items: center;
 }
 
-.beer-details h3 {
+.cake-details h3 {
   font-size: 24px;
 }
 
-.beer-details img {
+.cake-details img {
   display: block;
   height: 200px;
   margin: 0 auto 25px auto;
@@ -87,14 +116,14 @@ form button[type="submit"] {
   font-size: 16px;
   font-weight: 600;
   text-transform: uppercase;
-  background-color: #f1a458;
+  background-color: cornflowerblue;
   color: #fff;
   padding: 7px 10px;
   cursor: pointer;
 }
 
 #review-list li {
-  background-color: #fff3a9;
+  background-color: white;
   border-radius: 5px;
   padding: 20px;
   margin-bottom: 20px;
