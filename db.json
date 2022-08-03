@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Let It Drip",
-      "description": "Quadruple chocolate cake just drip drip dripping in flavor!",
+      "description": "Eat it.",
       "image_url": "https://curriculum-content.s3.amazonaws.com/phase-1/phase-1-code-challenge-cake-off/let-it-drip-cake.jpg",
       "reviews": [
         "Yummy Yummy Yummy!",
@@ -27,14 +27,19 @@
       "name": "Fruit Salad Fingers",
       "description": "An epic experiment!",
       "image_url": "https://curriculum-content.s3.amazonaws.com/phase-1/phase-1-code-challenge-cake-off/fruit-salad-cake.jpg",
-      "reviews": ["Spicy fruit cakes, say what?!", "My mum hates it"]
+      "reviews": [
+        "Spicy fruit cakes, say what?!",
+        "My mum hates it"
+      ]
     },
     {
       "id": 4,
       "name": "Winter Wonderland",
       "description": "Tastes like memories",
       "image_url": "https://curriculum-content.s3.amazonaws.com/phase-1/phase-1-code-challenge-cake-off/winter-wonderland-cake.jpg",
-      "reviews": ["I remember nothing"]
+      "reviews": [
+        "I remember nothing"
+      ]
     },
     {
       "id": 5,
@@ -61,7 +66,9 @@
       "name": "Starry Bright",
       "description": "Shine bright like a diamond.",
       "image_url": "https://curriculum-content.s3.amazonaws.com/phase-1/phase-1-code-challenge-cake-off/starry-bright-layered-cake.jpg",
-      "reviews": ["Tastes like a weird squid"]
+      "reviews": [
+        "Tastes like a weird squid"
+      ]
     },
     {
       "id": 8,
@@ -78,7 +85,9 @@
       "name": "Gingerbread Cakes are Better than All",
       "description": "Running the knife-edge between a house and a home... this particular style is one we truly love. Gingerbread cakes are a great showcase for the skill of our baking team, balancing so many complex and twisting flavours in the same moment.",
       "image_url": "https://curriculum-content.s3.amazonaws.com/phase-1/phase-1-code-challenge-cake-off/ginger-bread-cake.jpg",
-      "reviews": ["Pew pew"]
+      "reviews": [
+        "Pew pew"
+      ]
     },
     {
       "id": 10,
