@@ -52,18 +52,26 @@ const showCake = function(cake) {
     cakeImage.src = cake.image_url;
     reviewList.innerHTML = '';
     cake.reviews.forEach((review) => {
-        let reviewLi = document.createElement('li');
-        reviewLi.innerText = review;
-        reviewList.append(reviewLi);
+        createReview(review);
     })
 }
 
 //add review from form to review list
 const addNewReview = function(form) {
-    let newListEl = document.createElement('li');
-    newListEl.innerText = form.review.value;
-    reviewList.append(newListEl);
+    createReview(form.review.value)
     form.reset();
+}
+
+//create review in reviewList including on click delete
+const createReview = function(reviewText) {
+    let newListEl = document.createElement('li');
+    newListEl.innerText = reviewText;
+
+    //on click remove review
+    newListEl.addEventListener('click', (e) => {
+        e.target.remove();
+    })
+    reviewList.append(newListEl);
 }
 
 /*
